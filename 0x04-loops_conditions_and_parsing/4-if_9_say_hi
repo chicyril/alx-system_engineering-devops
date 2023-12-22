@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# displays Best School 10 times.
+TEXT="Best School"
+i=0
+while [ "$i" -lt 10 ]; do
+    echo "$TEXT"
+    #print Hi at the 9th iteration.
+    if [ "$i" -eq 8 ]; then
+        echo "Hi"
+    fi
+    ((i++))
+done

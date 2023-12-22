@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays Best School 10 times.
+TEXT="Best School"
+i=0
+until [ "$i" -eq 10 ]; do
+    echo "$TEXT"
+    ((i++))
+done
